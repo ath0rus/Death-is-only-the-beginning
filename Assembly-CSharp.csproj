@@ -68,8 +68,25 @@
     <Compile Include="Assets\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\FMOD\MazeGame\Metadata\SandboxFolder\{a766f27a-6c61-4b15-833c-889e9eb1921e}.xml" />
+    <None Include="Assets\FMOD\MazeGame\Metadata\Platform\{3a0242a5-68b9-4508-8aa8-490a8689dae5}.xml" />
+    <None Include="Assets\FMOD\MazeGame\Metadata\Mixer.xml" />
+    <None Include="Assets\FMOD\MazeGame\Metadata\Workspace.xml" />
+    <None Include="Assets\FMOD\MazeGame\Metadata\EventFolder\{2595b274-1380-434d-a173-55e2bea785d2}.xml" />
+    <None Include="Assets\FMOD\MazeGame\Metadata\ProfilerFolder\{8363f648-bd93-4455-b25a-488813b5ddd2}.xml" />
+    <None Include="Assets\FMOD\MazeGame\Metadata\SnapshotGroup\{42899d19-8b1b-4484-841b-d7a80e4d5fc2}.xml" />
+    <None Include="Assets\FMOD\MazeGame\Metadata\ParameterPresetFolder\{7cc5568c-da97-420e-a00c-4a2abc7c6eef}.xml" />
     <None Include="Assets\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
+    <None Include="Assets\FMOD\MazeGame\Metadata\AudioFile\{c1fca783-274c-49e6-a4a4-fb0c1d1ed3b9}.xml" />
     <None Include="Assets\StarterAssets\license.txt" />
+    <None Include="Assets\FMOD\MazeGame\Metadata\EffectPresetFolder\{4f046699-02df-4fad-bc7f-d698bc20a5d6}.xml" />
+    <None Include="Assets\FMOD\MazeGame\Metadata\Return\{06b33a4f-3c7b-4098-95eb-0a4559129483}.xml" />
+    <None Include="Assets\FMOD\MazeGame\Metadata\BankFolder\{e6cba29e-50a4-4fc3-8344-3b5c4d6667dd}.xml" />
+    <None Include="Assets\FMOD\MazeGame\Metadata\EncodingSetting\{d9fcd3f4-569f-44b3-b8c8-9d834dfcf2e1}.xml" />
+    <None Include="Assets\FMOD\MazeGame\Metadata\Tags.xml" />
+    <None Include="Assets\FMOD\MazeGame\Metadata\Bank\{27040fb4-ba7f-4132-9aed-a3ece698030d}.xml" />
+    <None Include="Assets\FMOD\MazeGame\Metadata\Asset\{5997657f-6fe7-413d-816f-682cfda8a3e7}.xml" />
+    <None Include="Assets\FMOD\MazeGame\Metadata\Master.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -782,6 +799,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="FMODUnityResonanceEditor.csproj">
+      <Project>{1B07B59D-4E1F-5016-D583-828417CEFC1F}</Project>
+      <Name>FMODUnityResonanceEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnity.csproj">
+      <Project>{A0ECE481-02EA-9744-A801-5AC94EB44D7A}</Project>
+      <Name>FMODUnity</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityEditor.csproj">
+      <Project>{638FEF8D-2853-46B4-A4C1-FD3D243BAF81}</Project>
+      <Name>FMODUnityEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FMODUnityResonance.csproj">
+      <Project>{EF612E88-BB4B-EA63-8FF9-003D109AD3F4}</Project>
+      <Name>FMODUnityResonance</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
