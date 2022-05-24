@@ -293,3 +293,27 @@ Received Import Request.
   path: Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset
   artifactKey: Guid(382074417906d3340b577219ad9c5b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset using Guid(382074417906d3340b577219ad9c5b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5ae45d1416a8d2547ef0796f4397dc') in 0.049472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 132.694677 seconds.
+  path: Assets/Materials/White base.mat
+  artifactKey: Guid(a8b3198f5a68238469b4fe46106cbce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/White base.mat using Guid(a8b3198f5a68238469b4fe46106cbce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ccc955532ac21de60b9957aff26755') in 0.109441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Materials/Walls.mat
+  artifactKey: Guid(73e69f918a80be74c8ce5a31dceb6c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Walls.mat using Guid(73e69f918a80be74c8ce5a31dceb6c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b767c828508e0165602a57a373e5c9f5') in 0.037173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/URP_HDRP_ShaderGraph/ShaderGraphGrid_01_Mat.mat
+  artifactKey: Guid(4589b87b8508f6e48b8fddb385924b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/URP_HDRP_ShaderGraph/ShaderGraphGrid_01_Mat.mat using Guid(4589b87b8508f6e48b8fddb385924b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b464f243d34811b70777e3b66e7746') in 0.034076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/StarterAssets/Environment/Art/Skybox/SkyboxLite.mat
+  artifactKey: Guid(f6c51332ac7d92541a38fb263b09d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Skybox/SkyboxLite.mat using Guid(f6c51332ac7d92541a38fb263b09d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d50b69220b92975bf08eb8717117f69') in 0.107195 seconds 
