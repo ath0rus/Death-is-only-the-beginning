@@ -4810,10 +4810,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1100355628}
   - component: {fileID: 1100355627}
-  - component: {fileID: 1100355630}
   - component: {fileID: 1100355629}
   - component: {fileID: 1100355631}
   - component: {fileID: 1100355632}
+  - component: {fileID: 1100355633}
   m_Layer: 0
   m_Name: FPS Player
   m_TagString: Untagged
@@ -4832,7 +4832,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
+  m_Height: 3
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -4847,7 +4847,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100355626}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 104.67795, y: 1.03, z: -15.344659}
+  m_LocalPosition: {x: 104.67795, y: 0.83, z: -15.344659}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4886,29 +4886,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!114 &1100355630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1100355626}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5dda5d63d1c978642a547cb9e218d515, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FootstepsEventPath: 
-  JumpingEventPath: 
-  MaterialParameterName: 
-  SpeedParameterName: 
-  JumpOrLandParameterName: 
-  StepDistance: 2
-  RayDistance: 1.2
-  StartRunningTime: 0.3
-  JumpInputName: 
-  MaterialTypes: []
-  DefaultMaterialValue: 0
 --- !u!114 &1100355631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4937,6 +4914,19 @@ CapsuleCollider:
   m_Height: 2.0621493
   m_Direction: 1
   m_Center: {x: 0, y: 0.024442554, z: -0.0126338005}
+--- !u!114 &1100355633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100355626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97ae6f17d3f24f5498a24d6c8fa041a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepSpeed: 0.5
 --- !u!1001 &1106206519
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6566,9 +6556,9 @@ GameObject:
   - component: {fileID: 1673469057}
   - component: {fileID: 1673469056}
   - component: {fileID: 1673469055}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
