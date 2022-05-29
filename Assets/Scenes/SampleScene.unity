@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657886, g: 0.4964137, b: 0.57481927, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657922, g: 0.49641472, b: 0.574818, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2995,14 +2995,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: -0.3539788, y: -0.49512148, z: 0.23087864, w: -0.75911045}
+  m_LocalRotation: {x: -0.24523525, y: 0.7381143, z: -0.34418878, w: -0.52590984}
   m_LocalPosition: {x: 109.18, y: 16.72, z: -28.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -293.772, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -469.06, z: 0}
 --- !u!1 &720064019
 GameObject:
   m_ObjectHideFlags: 0
@@ -4289,7 +4289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf058b8d0d3b57246b4862187a19a3be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 200
+  mouseSensitivity: 100
   playerBody: {fileID: 1100355628}
   xRotation: 0
 --- !u!1001 &971401513
