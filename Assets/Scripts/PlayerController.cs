@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] float MoveSpeed = 12f; //Player movment speed (WSAD)
     [SerializeField] CharacterController controller;
+    bool audioResumed = false;
 
     // Well to see what's happening you need to update per frame (duh)
     void Update()
@@ -17,5 +18,21 @@ public class PlayerController : MonoBehaviour
        Vector3 move = transform.right * x + transform.forward * z;
 
        controller.Move(move * MoveSpeed * Time.deltaTime);
+    }
+    private void Start()
+    {
+        ResumeAudio(); 
+    }
+
+    public void ResumeAudio()
+    {
+        if (!audioResumed)
+        {
+            var result = FMODUnity.RuntimeManager.CoreSystem.mixerSuspend();
+            Debug.Log(result);
+            result = FMODUnity.RuntimeManager.CoreSystem.mixerResume();
+            Debug.Log(result);
+            audioResumed = true;
+        }
     }
 }
